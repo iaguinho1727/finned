@@ -1,0 +1,136 @@
+
+[
+  {
+    "participant": "TECNOLOGIA LTDA",
+    "value": -20.00,
+    "transaction_date": "2023-07-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -18.00,
+    "transaction_date": "2023-07-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -50.00,
+    "transaction_date": "2023-07-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "TELEFONICA BRASIL S A",
+    "value": -42.00,
+    "transaction_date": "2023-07-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Wesley da Silva Ferreira",
+    "value": -10.00,
+    "transaction_date": "2023-07-25",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Pagamento",
+    "value": -517.39,
+    "transaction_date": "2023-07-25",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Wesley da Silva Ferreira",
+    "value": -10.00,
+    "transaction_date": "2023-07-31",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -50.00,
+    "transaction_date": "2023-08-01",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "VANESSA SILVA",
+    "value": -15.00,
+    "transaction_date": "2023-08-01",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "JOAO ALVES DURVAL",
+    "value": -20.60,
+    "transaction_date": "2023-08-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "THALLES PARREIRA ANDRADE 05059715183",
+    "value": -8.00,
+    "transaction_date": "2023-08-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "ANERIA GUIMARAES",
+    "value": 600.00,
+    "transaction_date": "2023-08-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "TECNOLOGIA LTDA",
+    "value": -10.00,
+    "transaction_date": "2023-08-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "SYNARA CARVALHO BRANQUINHO",
+    "value": -180.00,
+    "transaction_date": "2023-08-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "SELMA APARECIDA GOMES DA SILVA",
+    "value": -9.00,
+    "transaction_date": "2023-08-07",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -50.00,
+    "transaction_date": "2023-08-10",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -100.00,
+    "transaction_date": "2023-08-14",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -100.00,
+    "transaction_date": "2023-08-15",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Wesley da Silva Ferreira",
+    "value": -9.00,
+    "transaction_date": "2023-08-16",
+    "installment": 1,
+    "payment_type": "pix"
+  }
+]

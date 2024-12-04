@@ -1,0 +1,94 @@
+
+[
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 17884.33,
+    "transaction_date": "2020-11-19",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": -5000.00,
+    "transaction_date": "2020-12-07",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": -5000.00,
+    "transaction_date": "2020-12-22",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": -7000.00,
+    "transaction_date": "2021-01-30",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "Renda Fixa",
+    "value": -800.00,
+    "transaction_date": "2021-02-01",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": 300.00,
+    "transaction_date": "2021-03-17",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Rede Lucas Rio Verde Bra",
+    "value": -18.12,
+    "transaction_date": "2021-04-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Big Utilidades Rio Verde",
+    "value": -10.00,
+    "transaction_date": "2021-04-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Big Utilidades Rio Verde",
+    "value": -9.95,
+    "transaction_date": "2021-04-07",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas Rio Verde Bra",
+    "value": -13.05,
+    "transaction_date": "2021-04-07",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Big Utilidades Rio Verde",
+    "value": -16.00,
+    "transaction_date": "2021-04-22",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Pag*gentecservicoss Ma",
+    "value": -10.00,
+    "transaction_date": "2021-04-22",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas Rio Verde Bra",
+    "value": -26.97,
+    "transaction_date": "2021-04-22",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

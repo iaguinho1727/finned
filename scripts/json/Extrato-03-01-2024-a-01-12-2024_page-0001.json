@@ -1,0 +1,87 @@
+
+[
+  {
+    "participant": "EQUATORIAL GOIAS DISTRIBUIDORA DE ENE",
+    "value": -219.40,
+    "transaction_date": "2024-01-08",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Lidiana de Souza Primo",
+    "value": -25.00,
+    "transaction_date": "2024-01-10",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Elvys Ferreira Arantes",
+    "value": 792.00,
+    "transaction_date": "2024-01-12",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "CAROLINA DA SILVA LEANDRO",
+    "value": -70.00,
+    "transaction_date": "2024-01-13",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -400.00,
+    "transaction_date": "2024-01-15",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Mariana dos Santos Costa Vasconcellos",
+    "value": 15.00,
+    "transaction_date": "2024-01-16",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "CAROLINA DA SILVA LEANDRO",
+    "value": -65.00,
+    "transaction_date": "2024-01-16",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Mariana dos Santos Costa Vasconcellos",
+    "value": -15.00,
+    "transaction_date": "2024-01-16",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Shopee",
+    "value": -174.15,
+    "transaction_date": "2024-01-22",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Pagamento fatura cartao Inter",
+    "value": -380.25,
+    "transaction_date": "2024-01-22",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -300.00,
+    "transaction_date": "2024-01-23",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "LUCAS SUPERMERCADOS RIO VERDE B",
+    "value": -6.39,
+    "transaction_date": "2024-01-24",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

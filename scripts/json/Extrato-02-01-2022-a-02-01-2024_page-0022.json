@@ -1,0 +1,45 @@
+
+[
+  {
+    "participant": "SITELBRA - S T B LTDA ME",
+    "value": 2204.00,
+    "transaction_date": "2023-12-01",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "CAPITAL EDUCACAO E GESTAO EDUCACIONAL",
+    "value": -19.90,
+    "transaction_date": "2023-12-01",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -1632.00,
+    "transaction_date": "2023-12-06",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Pagamento",
+    "value": -578.90,
+    "transaction_date": "2023-12-11",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Andre Oliveira Pereira",
+    "value": -110.00,
+    "transaction_date": "2023-12-25",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Debito Automatico Fatura Cartao Inter",
+    "value": -644.74,
+    "transaction_date": "2023-12-28",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

@@ -1,0 +1,129 @@
+
+[
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 7000.00,
+    "transaction_date": "2022-03-11",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "SYNARA CARVALHO BRANQUINHO",
+    "value": -150.00,
+    "transaction_date": "2022-03-11",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "SYNARA CARVALHO BRANQUINHO",
+    "value": -150.00,
+    "transaction_date": "2022-03-17",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "easyassistencia Rio Verde",
+    "value": -3.00,
+    "transaction_date": "2022-03-21",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "SYNARA CARVALHO BRANQUINHO",
+    "value": -150.00,
+    "transaction_date": "2022-03-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Uber trip Sao Paulo Bra",
+    "value": -24.94,
+    "transaction_date": "2022-04-06",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Uber trip Sao Paulo Bra",
+    "value": -13.99,
+    "transaction_date": "2022-04-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "PIX Marketplace",
+    "value": -44.80,
+    "transaction_date": "2022-04-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "SYNARA CARVALHO BRANQUINHO",
+    "value": -150.00,
+    "transaction_date": "2022-04-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 1454.40,
+    "transaction_date": "2022-04-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "New Farma Rio Verde Bra",
+    "value": -10.00,
+    "transaction_date": "2022-05-02",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Uber trip Help.uber.c Sp Bra",
+    "value": -12.91,
+    "transaction_date": "2022-05-03",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "SYNARA CARVALHO BRANQUINHO",
+    "value": -120.00,
+    "transaction_date": "2022-05-03",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Supermercado Rio Verde Bra",
+    "value": -7.89,
+    "transaction_date": "2022-05-03",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "FERNANDO BERNARDES DA SILVA",
+    "value": 120.00,
+    "transaction_date": "2022-05-05",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Universo Animal Rio Verde Bra",
+    "value": -18.00,
+    "transaction_date": "2022-05-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermercio Rio Verde",
+    "value": -20.48,
+    "transaction_date": "2022-05-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Espetinho Do Robert Rio Verde B",
+    "value": -18.00,
+    "transaction_date": "2022-05-06",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

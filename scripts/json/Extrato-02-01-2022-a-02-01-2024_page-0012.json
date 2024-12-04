@@ -1,0 +1,157 @@
+
+[
+  {
+    "participant": "ton Selma Aparec Sao Paulo Bra",
+    "value": -10.00,
+    "transaction_date": "2023-03-22",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Telefonica Brasil S A",
+    "value": -36.99,
+    "transaction_date": "2023-03-22",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Nobre Supermercado Rio Verde Bra",
+    "value": -9.99,
+    "transaction_date": "2023-03-22",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "ton Selma Aparec Sao Paulo Bra",
+    "value": -10.00,
+    "transaction_date": "2023-03-23",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "ton Selma Aparec Sao Paulo Bra",
+    "value": -10.00,
+    "transaction_date": "2023-03-23",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Nobre Supermercado Rio Verde Bra",
+    "value": -8.00,
+    "transaction_date": "2023-03-23",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Nao informado",
+    "value": 10.00,
+    "transaction_date": "2023-03-24",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "New Farma I Rio Verde Bra",
+    "value": -15.00,
+    "transaction_date": "2023-03-24",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Nobre Supermercado Rio Verde Bra",
+    "value": -14.50,
+    "transaction_date": "2023-03-24",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Pagamento efetuado",
+    "value": -80.40,
+    "transaction_date": "2023-03-26",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Nobre Supermercado Rio Verde Bra",
+    "value": -6.99,
+    "transaction_date": "2023-03-26",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -50.00,
+    "transaction_date": "2023-03-27",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cashback",
+    "value": 0.03,
+    "transaction_date": "2023-03-29",
+    "installment": 1,
+    "payment_type": "credit"
+  },
+  {
+    "participant": "Bom Sabor Rio Verde Bra",
+    "value": -8.00,
+    "transaction_date": "2023-03-29",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Amazon Servicos De Varejo Do Brasil Ltda.",
+    "value": -152.90,
+    "transaction_date": "2023-03-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -2000.00,
+    "transaction_date": "2023-03-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Aplicacao Poupanca",
+    "value": -2000.00,
+    "transaction_date": "2023-03-29",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "INTER SA",
+    "value": 7810.00,
+    "transaction_date": "2023-03-29",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Resgate Poupanca",
+    "value": 2000.00,
+    "transaction_date": "2023-03-30",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Amazon Servicos De Varejo Do Brasil Ltda.",
+    "value": -12.80,
+    "transaction_date": "2023-03-30",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Kabum Comercio Eletronico Sa",
+    "value": -26.61,
+    "transaction_date": "2023-03-30",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "ton JK Ferragista Sao Paulo Bra",
+    "value": -20.00,
+    "transaction_date": "2023-03-30",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

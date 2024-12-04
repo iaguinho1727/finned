@@ -1,0 +1,115 @@
+
+[
+    {
+        "participant": "IAGO GUIMARAES ARANTES",
+        "value": 945.00,
+        "transaction_date": "2024-09-06",
+        "installment": 1,
+        "payment_type": "other"
+    },
+    {
+        "participant": "IAGO GUIMARAES ARANTES",
+        "value": 2500.00,
+        "transaction_date": "2024-09-08",
+        "installment": 1,
+        "payment_type": "other"
+    },
+    {
+        "participant": "EQUATORIAL GOIAS DISTRIBUIDORA DE ENE",
+        "value": -128.26,
+        "transaction_date": "2024-09-08",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "ESTACIO RIBEIRAO PRETO",
+        "value": -434.21,
+        "transaction_date": "2024-09-11",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Edilaine Aparecida Bento",
+        "value": -100.00,
+        "transaction_date": "2024-09-13",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Iago Guimaraes Arantes",
+        "value": -1000.00,
+        "transaction_date": "2024-09-21",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Iago Guimaraes Arantes",
+        "value": -1000.00,
+        "transaction_date": "2024-09-22",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Iago Guimaraes Arantes",
+        "value": -2000.00,
+        "transaction_date": "2024-09-22",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Iago Guimaraes Arantes",
+        "value": -3000.00,
+        "transaction_date": "2024-09-22",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Emily Esteves",
+        "value": -50.00,
+        "transaction_date": "2024-09-25",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Iago Guimaraes Arantes",
+        "value": 50.00,
+        "transaction_date": "2024-09-26",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Debito Automatico Fatura Cartao Inter",
+        "value": -69.65,
+        "transaction_date": "2024-09-30",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "IAGO GUIMARAES ARANTES",
+        "value": 1035.00,
+        "transaction_date": "2024-10-01",
+        "installment": 1,
+        "payment_type": "other"
+    },
+    {
+        "participant": "SACQASH SERVICOS ADMINISTRATIVOS LTDA",
+        "value": -19.90,
+        "transaction_date": "2024-10-04",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "PRIVACY TECNOLOGIA LTDA",
+        "value": -19.90,
+        "transaction_date": "2024-10-04",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Casa De Carne E Comercio Rio Verde Bra",
+        "value": -29.69,
+        "transaction_date": "2024-10-05",
+        "installment": 1,
+        "payment_type": "debit"
+    }
+]

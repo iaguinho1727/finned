@@ -1,0 +1,94 @@
+
+[
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 100.00,
+    "transaction_date": "2022-12-30",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cashback - Cartao de credito",
+    "value": 0.30,
+    "transaction_date": "2023-01-08",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 20.00,
+    "transaction_date": "2023-01-08",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 71.32,
+    "transaction_date": "2023-01-17",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 26.00,
+    "transaction_date": "2023-01-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": 550.00,
+    "transaction_date": "2023-01-27",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": 100.00,
+    "transaction_date": "2023-01-27",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 635.60,
+    "transaction_date": "2023-01-27",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -16.50,
+    "transaction_date": "2023-01-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": 57.00,
+    "transaction_date": "2023-01-30",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cashback - Cartao de credito",
+    "value": 0.70,
+    "transaction_date": "2023-02-01",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Vanessa Marques Alves Da Silva",
+    "value": -15.00,
+    "transaction_date": "2023-02-08",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Aneria Menezes Guimaraes",
+    "value": 100.00,
+    "transaction_date": "2023-02-08",
+    "installment": 1,
+    "payment_type": "pix"
+  }
+]

@@ -1,0 +1,115 @@
+
+[
+    {
+        "participant": "PRIVACY TECNOLOGIA LTDA",
+        "value": -24.99,
+        "transaction_date": "2023-09-12",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Even3",
+        "value": -33.00,
+        "transaction_date": "2023-09-13",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "NOBRE SUPERMERCADO LTD RIO VERD",
+        "value": -9.66,
+        "transaction_date": "2023-09-13",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "NEW FARMA I RIO VERDE BRA",
+        "value": -13.40,
+        "transaction_date": "2023-09-13",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "ISAMARA GONCALVES GOMES",
+        "value": -70.00,
+        "transaction_date": "2023-09-13",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Ilan Gabriel Castro Guimaraes",
+        "value": -25.00,
+        "transaction_date": "2023-09-14",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "ELVYS FERREIRA ARANTES",
+        "value": 792.00,
+        "transaction_date": "2023-09-18",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Ilan Gabriel Castro Guimaraes",
+        "value": -25.00,
+        "transaction_date": "2023-09-19",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "NOBRE SUPERMERCADO LTD RIO VERD",
+        "value": -13.73,
+        "transaction_date": "2023-09-20",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "LUCAS SUPERMERCADOS UBERLANDIA",
+        "value": -15.90,
+        "transaction_date": "2023-09-21",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "NOBRE SUPERMERCADO LTD RIO VERD",
+        "value": -9.85,
+        "transaction_date": "2023-09-21",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "NOBRE SUPERMERCADO LTD RIO VERD",
+        "value": -14.55,
+        "transaction_date": "2023-09-22",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "PAG*AnathalinaSousa RIO VERDE B",
+        "value": -20.00,
+        "transaction_date": "2023-09-23",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "MISTER BOM SORVETES QUIRINOPOLI",
+        "value": -5.00,
+        "transaction_date": "2023-09-26",
+        "installment": 1,
+        "payment_type": "debit"
+    },
+    {
+        "participant": "IAGO GUIMARAES ARANTES",
+        "value": -20.00,
+        "transaction_date": "2023-09-27",
+        "installment": 1,
+        "payment_type": "pix"
+    },
+    {
+        "participant": "Debito Automatico Fatura Cartao Inter",
+        "value": -298.18,
+        "transaction_date": "2023-09-28",
+        "installment": 1,
+        "payment_type": "debit"
+    }
+]

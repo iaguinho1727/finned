@@ -1,0 +1,101 @@
+services:
+    laravel.test:
+        build:
+            context: './vendor/laravel/sail/runtimes/8.4'
+            dockerfile: Dockerfile
+            args:
+                WWWGROUP: '${WWWGROUP}'
+        image: 'sail-8.4/app'
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        ports:
+            - '${APP_PORT:-80}:80'
+            - '${VITE_PORT:-5173}:${VITE_PORT:-5173}'
+        environment:
+            WWWUSER: '${WWWUSER}'
+            LARAVEL_SAIL: 1
+            XDEBUG_MODE: '${SAIL_XDEBUG_MODE:-off}'
+            XDEBUG_CONFIG: '${SAIL_XDEBUG_CONFIG:-client_host=host.docker.internal}'
+            IGNITION_LOCAL_SITES_PATH: '${PWD}'
+        volumes:
+            - '.:/var/www/html'
+        networks:
+            - sail
+        depends_on:
+            - pgsql
+    pgsql:
+        image: 'postgres:17'
+        ports:
+            - '${FORWARD_DB_PORT:-5432}:5432'
+        environment:
+            PGPASSWORD: '${DB_PASSWORD:-secret}'
+            POSTGRES_DB: '${DB_DATABASE}'
+            POSTGRES_USER: '${DB_USERNAME}'
+            POSTGRES_PASSWORD: '${DB_PASSWORD:-secret}'
+        volumes:
+            - 'sail-pgsql:/var/lib/postgresql/data'
+            - './vendor/laravel/sail/database/pgsql/create-testing-database.sql:/docker-entrypoint-initdb.d/10-create-testing-database.sql'
+        networks:
+            - sail
+        healthcheck:
+            test:
+                - CMD
+                - pg_isready
+                - '-q'
+                - '-d'
+                - '${DB_DATABASE}'
+                - '-U'
+                - '${DB_USERNAME}'
+            retries: 3
+            timeout: 5s
+    pgadmin:
+        image: dpage/pgadmin4:2024-10-19-2
+        container_name: myfin-pgadmin
+        hostname: pgadmin.myfin
+        environment:
+            PGADMIN_DEFAULT_EMAIL: admin@admin.com.br # Configura o email de login do pgAdmin
+            PGADMIN_DEFAULT_PASSWORD: admin      # Configura a senha de login do pgAdmin
+        ports:
+            - "8082:80"                            # Exponha o pgAdmin na porta 8080
+        depends_on:
+            - pgsql
+        networks:
+            - sail
+        volumes:
+            - pgadmin_data:/var/lib/pgadmin
+    metabase:
+        image: metabase/metabase:latest
+        container_name: metabase-myfin
+        hostname: metabase.myfin
+        volumes:
+        - /dev/urandom:/dev/random:ro
+        ports:
+        - 3000:3000
+        depends_on:
+            pgsql:
+                condition: service_healthy
+        environment:
+            MB_DB_TYPE: postgres
+            MB_DB_DBNAME: metabase
+            MB_DB_PORT: 5432
+            MB_DB_USER: ${DB_USERNAME}
+            MB_DB_PASS: ${DB_PASSWORD}
+            MB_DB_HOST: ${DB_HOST}
+            JAVA_TIMEZONE: 'America/Sao_Paulo'
+            TZ: 'America/Sao_Paulo'
+            JAVA_OPTS: '-Xmx8G'
+        networks:
+            - sail
+        healthcheck:
+            test: curl --fail -I http://localhost:3000/api/health || exit 1
+            interval: 15s
+            timeout: 5s
+            retries: 5
+networks:
+    sail:
+        driver: bridge
+volumes:
+    sail-pgsql:
+        driver: local
+    pgadmin_data:
+        driver: local

@@ -1,0 +1,122 @@
+
+[
+  {
+    "participant": "Lauany Nayara de Oliveira Alves",
+    "value": -30.00,
+    "transaction_date": "2024-06-06",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "ESTACIO RIBEIRAO PRETO",
+    "value": -358.30,
+    "transaction_date": "2024-06-06",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "REALIZE CREDITO FINANCIAMENTO E INVES",
+    "value": -88.09,
+    "transaction_date": "2024-06-11",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Tyffany Regia Pontes da Silva",
+    "value": -100.00,
+    "transaction_date": "2024-06-12",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Angelica Cristina dos Santos",
+    "value": -20.00,
+    "transaction_date": "2024-06-20",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Angelica Cristina dos Santos",
+    "value": -10.00,
+    "transaction_date": "2024-06-20",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Erika Yasmin Araujo da Silva",
+    "value": -40.00,
+    "transaction_date": "2024-06-20",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Milena da Silva",
+    "value": -55.55,
+    "transaction_date": "2024-06-22",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "LUCAS SUPERMERCADOS RIO VERDE B",
+    "value": -23.18,
+    "transaction_date": "2024-06-22",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Inter",
+    "value": -720.48,
+    "transaction_date": "2024-06-24",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -1400.00,
+    "transaction_date": "2024-06-25",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "NEW FARMA I RIO VERDE BRA",
+    "value": -34.00,
+    "transaction_date": "2024-06-25",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "RAIA DROGASIL S A",
+    "value": -33.35,
+    "transaction_date": "2024-06-27",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -17.50,
+    "transaction_date": "2024-06-28",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -20.00,
+    "transaction_date": "2024-06-28",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -400.00,
+    "transaction_date": "2024-07-01",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -100.00,
+    "transaction_date": "2024-07-01",
+    "installment": 1,
+    "payment_type": "pix"
+  }
+]

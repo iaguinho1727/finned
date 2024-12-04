@@ -1,0 +1,13 @@
+models:
+
+  Participant:
+    name: string:255
+  Movement:
+    value: float
+    relationships:
+      belongsTo:
+        Participant
+
+
+controllers:
+  # ...

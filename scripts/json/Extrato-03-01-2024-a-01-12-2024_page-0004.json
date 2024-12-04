@@ -1,0 +1,108 @@
+
+[
+  {
+    "participant": "REALIZE CREDITO FINANCIAMENTO E INVES",
+    "value": -88.09,
+    "transaction_date": "2024-04-14",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -200.00,
+    "transaction_date": "2024-04-15",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Pagamento",
+    "value": -90.54,
+    "transaction_date": "2024-04-15",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "S DE MELO MIRANDA TECNOLOGIA",
+    "value": -17.30,
+    "transaction_date": "2024-04-17",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "S DE MELO MIRANDA TECNOLOGIA",
+    "value": -50.00,
+    "transaction_date": "2024-04-18",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -300.00,
+    "transaction_date": "2024-04-18",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "S DE MELO MIRANDA TECNOLOGIA",
+    "value": -10.00,
+    "transaction_date": "2024-04-20",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "S DE MELO MIRANDA TECNOLOGIA",
+    "value": -100.00,
+    "transaction_date": "2024-04-21",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Giovana Tereza da Costa Lima",
+    "value": -40.00,
+    "transaction_date": "2024-04-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Lucia da Silva de Lima",
+    "value": -30.00,
+    "transaction_date": "2024-04-26",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Debito Automatico Fatura Cartao Inter",
+    "value": -581.37,
+    "transaction_date": "2024-04-29",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 770.00,
+    "transaction_date": "2024-04-30",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 2431.00,
+    "transaction_date": "2024-05-06",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "ESTACIO RIBEIRAO PRETO",
+    "value": -358.30,
+    "transaction_date": "2024-05-08",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": -20.00,
+    "transaction_date": "2024-05-09",
+    "installment": 1,
+    "payment_type": "pix"
+  }
+]

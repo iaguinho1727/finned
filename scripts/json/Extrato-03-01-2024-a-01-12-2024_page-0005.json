@@ -1,0 +1,136 @@
+
+[
+  {
+    "participant": "Raira Iannicelli",
+    "value": -35.00,
+    "transaction_date": "2024-05-09",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "EQUATORIAL GOIAS DISTRIBUIDORA DE ENE",
+    "value": -129.16,
+    "transaction_date": "2024-05-09",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "MAURICIO SILVEIRA MACHADO",
+    "value": -400.00,
+    "transaction_date": "2024-05-10",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "REALIZE CREDITO FINANCIAMENTO E INVES",
+    "value": -88.09,
+    "transaction_date": "2024-05-14",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Shopee",
+    "value": -48.45,
+    "transaction_date": "2024-05-18",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -20.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -16.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -20.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -15.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -95.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -700.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -700.00,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "CAPITAL EDUCACAO E GESTAO EDUCACIONAL",
+    "value": -19.90,
+    "transaction_date": "2024-05-19",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -50.00,
+    "transaction_date": "2024-05-23",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Brenda Bezerra Albuquerque",
+    "value": -50.00,
+    "transaction_date": "2024-05-25",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Debito Automatico Fatura Cartao Inter",
+    "value": -859.94,
+    "transaction_date": "2024-05-28",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Thalia da Silva Arrais",
+    "value": -50.00,
+    "transaction_date": "2024-06-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 665.00,
+    "transaction_date": "2024-06-03",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Rebeca Helena Alves Majak",
+    "value": -40.00,
+    "transaction_date": "2024-06-05",
+    "installment": 1,
+    "payment_type": "pix"
+  }
+]

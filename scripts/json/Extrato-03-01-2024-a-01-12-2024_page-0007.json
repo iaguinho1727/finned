@@ -1,0 +1,101 @@
+
+[
+  {
+    "participant": "Cp:31872495-Brenda Bezerra Albuquerque",
+    "value": -50.00,
+    "transaction_date": "2024-07-04",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "001 1003 735302 IAGO GUIMARAES ARANTES",
+    "value": 2356.00,
+    "transaction_date": "2024-07-05",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Cp:60701190-ESTACIO RIBEIRAO PRETO",
+    "value": -358.30,
+    "transaction_date": "2024-07-07",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:90400888-REALIZE CREDITO FINANCIAMENTO E INVES",
+    "value": -88.09,
+    "transaction_date": "2024-07-08",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:90400888-EQUATORIAL GOIAS DISTRIBUIDORA DE ENE",
+    "value": -111.36,
+    "transaction_date": "2024-07-09",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:00000000-BRK AMBIENTAL GOIAS SA",
+    "value": -70.92,
+    "transaction_date": "2024-07-16",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:012072058-G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -50.00,
+    "transaction_date": "2024-07-17",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:09089356-LIVEPIX LTDA",
+    "value": -40.00,
+    "transaction_date": "2024-07-20",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:18236120-Iago Guimaraes Arantes",
+    "value": -400.00,
+    "transaction_date": "2024-07-23",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:18236120-Angelica Cristina dos Santos",
+    "value": -25.00,
+    "transaction_date": "2024-07-25",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:60701190-INGRESSOS BILLY THE TICKET",
+    "value": -62.00,
+    "transaction_date": "2024-07-27",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:90400888-ELVYS FERREIRA ARANTES",
+    "value": 62.00,
+    "transaction_date": "2024-07-28",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cp:10573521-Jose Junior do Nascimento",
+    "value": -100.00,
+    "transaction_date": "2024-07-29",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Debito Automatico Fatura Cartao Inter",
+    "value": -686.86,
+    "transaction_date": "2024-07-29",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

@@ -1,0 +1,122 @@
+
+[
+  {
+    "participant": "Drogasil 2294 Rio Verde",
+    "value": -112.98,
+    "transaction_date": "2022-01-03",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -9.51,
+    "transaction_date": "2022-01-03",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Superme Tu",
+    "value": -15.99,
+    "transaction_date": "2022-01-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Superme Tu",
+    "value": -29.98,
+    "transaction_date": "2022-01-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -13.97,
+    "transaction_date": "2022-01-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Pag*robertoperesduque Ri",
+    "value": -33.00,
+    "transaction_date": "2022-01-07",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Farmacia Vita Farma Rio",
+    "value": -19.30,
+    "transaction_date": "2022-01-07",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -11.29,
+    "transaction_date": "2022-01-07",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Superme Tu",
+    "value": -22.93,
+    "transaction_date": "2022-01-07",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -5.45,
+    "transaction_date": "2022-01-08",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Superme Tu",
+    "value": -25.41,
+    "transaction_date": "2022-01-08",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Superme Tu",
+    "value": -6.23,
+    "transaction_date": "2022-01-09",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -2.19,
+    "transaction_date": "2022-01-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -8.43,
+    "transaction_date": "2022-01-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Superme Tu",
+    "value": -22.31,
+    "transaction_date": "2022-01-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verd",
+    "value": -21.40,
+    "transaction_date": "2022-01-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Pag*robertoperesduque Ri",
+    "value": -18.00,
+    "transaction_date": "2022-01-11",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

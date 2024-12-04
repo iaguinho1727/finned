@@ -1,0 +1,115 @@
+
+[
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 990.00,
+    "transaction_date": "2024-08-01",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 2505.00,
+    "transaction_date": "2024-08-05",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "EQUATORIAL GOIAS DISTRIBUIDORA DE ENE",
+    "value": -115.84,
+    "transaction_date": "2024-08-08",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "ESTACIO RIBEIRAO PRETO",
+    "value": -358.30,
+    "transaction_date": "2024-08-11",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -35.00,
+    "transaction_date": "2024-08-13",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -20.00,
+    "transaction_date": "2024-08-13",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -25.00,
+    "transaction_date": "2024-08-13",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "TECINTEL - TECNOLOGIA INFORMACAO E",
+    "value": 60.00,
+    "transaction_date": "2024-08-14",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -600.00,
+    "transaction_date": "2024-08-21",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": -1000.00,
+    "transaction_date": "2024-08-21",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cristine Santos",
+    "value": -30.00,
+    "transaction_date": "2024-08-22",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Gisele Nicolau dos Santos",
+    "value": -55.00,
+    "transaction_date": "2024-08-23",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Cristine Santos",
+    "value": -30.00,
+    "transaction_date": "2024-08-23",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Debito Automatico Fatura Cartao Inter",
+    "value": -250.11,
+    "transaction_date": "2024-08-28",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -26.00,
+    "transaction_date": "2024-08-30",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "G S DE MELO MIRANDA TECNOLOGIA",
+    "value": -10.00,
+    "transaction_date": "2024-08-30",
+    "installment": 1,
+    "payment_type": "pix"
+  }
+]

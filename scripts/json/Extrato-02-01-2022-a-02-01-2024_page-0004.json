@@ -1,0 +1,122 @@
+
+[
+  {
+    "participant": "Pag*robertoperesduque Rio Verde",
+    "value": -26.00,
+    "transaction_date": "2022-02-05",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Universo Animal Rio Verde Bra",
+    "value": -18.00,
+    "transaction_date": "2022-02-08",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -7.17,
+    "transaction_date": "2022-02-09",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verde Bra",
+    "value": -10.60,
+    "transaction_date": "2022-02-09",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Uber *uber *trip Sao Paulo Bra",
+    "value": -9.97,
+    "transaction_date": "2022-02-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Uber *uber *trip Sao Paulo Bra",
+    "value": -10.90,
+    "transaction_date": "2022-02-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verde Bra",
+    "value": -10.54,
+    "transaction_date": "2022-02-10",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -11.97,
+    "transaction_date": "2022-02-11",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -3.99,
+    "transaction_date": "2022-02-11",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -12.63,
+    "transaction_date": "2022-02-15",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verde Bra",
+    "value": -5.17,
+    "transaction_date": "2022-02-15",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Uber *uber *trip Sao Paulo Bra",
+    "value": -8.45,
+    "transaction_date": "2022-02-16",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Uber *uber *trip Sao Paulo Bra",
+    "value": -8.69,
+    "transaction_date": "2022-02-16",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -5.92,
+    "transaction_date": "2022-02-17",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -11.08,
+    "transaction_date": "2022-02-17",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Jm Supermercado Rio Verde Bra",
+    "value": -8.30,
+    "transaction_date": "2022-02-17",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Rede Lucas De Supermerc Rio Verde",
+    "value": -12.35,
+    "transaction_date": "2022-02-18",
+    "installment": 1,
+    "payment_type": "debit"
+  }
+]

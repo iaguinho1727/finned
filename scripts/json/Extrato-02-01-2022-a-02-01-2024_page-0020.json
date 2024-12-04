@@ -1,0 +1,101 @@
+
+[
+  {
+    "participant": "LUCAS SUPERMERCADOS UBERLANDIA",
+    "value": 15.90,
+    "transaction_date": "2023-10-21",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Okto Pagamentos S.A.",
+    "value": 50.00,
+    "transaction_date": "2023-10-22",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "THE BEST ACAI RIO VERDE BRA",
+    "value": 12.42,
+    "transaction_date": "2023-10-23",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "IFOOD.COM AGENCIA DE RESTAURANTES ONL",
+    "value": 49.99,
+    "transaction_date": "2023-10-24",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "REDE SANMAR LOJA 05 RIO VERDE B",
+    "value": 12.94,
+    "transaction_date": "2023-10-25",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "LUCAS SUPERMERCADOS UBERLANDIA",
+    "value": 13.99,
+    "transaction_date": "2023-10-25",
+    "installment": 1,
+    "payment_type": "debit"
+  },
+  {
+    "participant": "Iago Guimaraes Arantes",
+    "value": 60.00,
+    "transaction_date": "2023-10-26",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Pagamento fatura cartao Inter",
+    "value": 746.09,
+    "transaction_date": "2023-10-29",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "Ilan Gabriel Castro Guimaraes",
+    "value": 25.00,
+    "transaction_date": "2023-11-01",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Okto Pagamentos S.A.",
+    "value": 50.00,
+    "transaction_date": "2023-11-01",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "S T B LTDA ME",
+    "value": 665.00,
+    "transaction_date": "2023-11-01",
+    "installment": 1,
+    "payment_type": "transfer"
+  },
+  {
+    "participant": "IAGO GUIMARAES ARANTES",
+    "value": 25.00,
+    "transaction_date": "2023-11-02",
+    "installment": 1,
+    "payment_type": "pix"
+  },
+  {
+    "participant": "Aplicacao Poupanca Transacao sem descricao",
+    "value": 2345.00,
+    "transaction_date": "2023-11-03",
+    "installment": 1,
+    "payment_type": "other"
+  },
+  {
+    "participant": "S T B LTDA ME",
+    "value": 2204.00,
+    "transaction_date": "2023-11-03",
+    "installment": 1,
+    "payment_type": "transfer"
+  }
+]
