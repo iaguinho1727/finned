@@ -2,31 +2,29 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\ParticipantResource\Pages;
-use App\Filament\Resources\ParticipantResource\RelationManagers;
-use App\Filament\Resources\ParticipantResource\RelationManagers\MovementsRelationManager;
-use App\Models\Participant;
+use App\Filament\Resources\CategoriesResource\Pages;
+use App\Filament\Resources\CategoriesResource\RelationManagers;
+use App\Models\Categories;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use Filament\Tables\Actions\ViewAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\TextInputColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class ParticipantResource extends Resource
+class CategoriesResource extends Resource
 {
-    protected static ?string $model = Participant::class;
+    protected static ?string $model = Categories::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-user';
+    protected static ?string $navigationIcon = 'heroicon-o-tag';
 
-    protected static ?string $pluralModelLabel='Participantes';
+    protected static ?string $pluralModelLabel='Categorias';
 
-    protected static ?string $modelLabel='Participante';
+    protected static ?string $modelLabel='Categoria';
 
     public static function form(Form $form): Form
     {
@@ -42,7 +40,6 @@ class ParticipantResource extends Resource
             ->columns([
                 TextColumn::make('id'),
                 TextInputColumn::make('name')->label('Nome')->searchable()->columnSpanFull(),
-
             ])
             ->filters([
                 //
@@ -50,7 +47,6 @@ class ParticipantResource extends Resource
             ->actions([
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
-                ViewAction::make()
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
@@ -58,16 +54,11 @@ class ParticipantResource extends Resource
                 ]),
             ]);
     }
-    public static function getRelations() : array
-    {
-        return [
-            MovementsRelationManager::class
-        ];
-    }
+
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageParticipants::route('/'),
+            'index' => Pages\ManageCategories::route('/'),
         ];
     }
 }

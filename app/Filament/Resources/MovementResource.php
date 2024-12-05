@@ -29,7 +29,12 @@ class MovementResource extends Resource
 {
     protected static ?string $model = Movement::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'heroicon-o-currency-dollar';
+
+    protected static ?string $pluralModelLabel= 'Movimentações';
+
+
+    protected static ?string $modelLabel='Movimentação';
 
     public static function form(Form $form): Form
     {
@@ -46,7 +51,7 @@ class MovementResource extends Resource
                     TextInput::make('name')->label('Nome')
                 ])
 
-                ->relationship('participant','name')->label('Participant'),
+                ->relationship('participant','name')->required()->label('Participant'),
 
                 Select::make('movement_type')->options([
                     'debit'=>'Débito',
@@ -55,11 +60,13 @@ class MovementResource extends Resource
                     'money'=>'Dinherio',
                     'transfer'=>'Transferência',
                     'other'=>'Outro'
-                ])->label('Tipo de Movimento')->default('pix'),
+                ])->required()->label('Tipo de Movimento')->default('pix'),
 
-                DatePicker::make('movement_date')->displayFormat('d/m/Y')->required()->label('Data da Movimentação')->native(false),
+                Select::make('categories_id')->label('Categoria')->relationship('categories','name')->preload()->searchable(),
 
-                TextInput::make('value')->label('Valor')->numeric(),
+                DatePicker::make('movement_date')->required()->displayFormat('d/m/Y')->required()->label('Data da Movimentação')->native(false),
+
+                TextInput::make('value')->required()->label('Valor')->numeric(),
 
             ]);
     }
@@ -80,11 +87,14 @@ class MovementResource extends Resource
                     'transfer'=>'Transferência',
                     'other'=>'Outro'
                 ])->label('Tipo de Movimentação')->alignCenter(),
+                TextColumn::make('categories.name')->badge()->label('Categoria'),
                 TextColumn::make('created_at')->dateTime(),
             ])->defaultSort('movement_date','desc')
 
             ->filters([
                 SelectFilter::make('parcicipant')->relationship('participant','name')->searchable()->preload(),
+
+                SelectFilter::make('categories_id')->label('Categoria')->relationship('categories','name')->searchable()->preload(),
 
 
                 QueryBuilder::make()->constraints([
@@ -112,10 +122,19 @@ class MovementResource extends Resource
                         ->preload()
                         ->relationship('participant','name')->label('Participant'),
 
+                        Select::make('categories_id')
+                        ->createOptionForm([
+                            TextInput::make('name')->label('Nome')
+                        ])->native(false)
+                        ->relationship('categories','name')
+                        ->preload()
+                        ->searchable()
+                        ->native(false)
+
 
                     ])->action(function(array $data,Collection $records){
-                        $new_participant_id=$data['participant_id'];
-                        $records->each(fn($item)=>$item->update(['participant_id'=>$new_participant_id]));
+                        $new_data=collect($data)->filter()->all();
+                        $records->each(fn($item)=>$item->update($new_data));
 
 
                     })

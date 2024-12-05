@@ -18,7 +18,8 @@ class Movement extends Model
     protected $fillable = [
         'value',
         'participant_id',
-        'movement_date'
+        'movement_date',
+        'categories_id'
     ];
 
     /**
@@ -31,8 +32,14 @@ class Movement extends Model
         'value' => 'float',
         'movement_date'=>'date',
         'participant_id' => 'integer',
+        'categories_id'=>'integer'
     ];
 
+
+    public function categories(): BelongsTo
+    {
+        return $this->belongsTo(Categories::class);
+    }
     public function participant(): BelongsTo
     {
         return $this->belongsTo(Participant::class);

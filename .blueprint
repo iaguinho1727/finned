@@ -1,11 +1,13 @@
 created:
-    - database/factories/ParticipantFactory.php
-    - database/factories/MovementFactory.php
-    - database/migrations/2024_11_28_234019_create_participants_table.php
-    - database/migrations/2024_11_28_234020_create_movements_table.php
-    - app/Models/Participant.php
-    - app/Models/Movement.php
+    - database/factories/MovementsFactory.php
+    - database/factories/CategoriesFactory.php
+    - database/migrations/2024_12_04_213206_create_movements_table.php
+    - database/migrations/2024_12_04_213207_create_categories_table.php
+    - app/Models/Movements.php
+    - app/Models/Categories.php
 models:
     User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
     Participant: { name: 'string:255' }
     Movement: { value: float, relationships: { belongsTo: Participant } }
+    Movements: { relationships: { belongsTo: Categories } }
+    Categories: { name: string }

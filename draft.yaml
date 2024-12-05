@@ -1,12 +1,14 @@
 models:
 
-  Participant:
-    name: string:255
-  Movement:
-    value: float
+  Movements:
     relationships:
       belongsTo:
-        Participant
+        Categories
+
+
+  Categories:
+    name: string
+
 
 
 controllers:
