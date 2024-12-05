@@ -1,13 +1,12 @@
 models:
 
-  Movements:
-    relationships:
-      belongsTo:
-        Categories
+  Units:
+    name: varchar
+  Foods:
+    name: varchar
 
 
-  Categories:
-    name: string
+
 
 
 

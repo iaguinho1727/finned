@@ -44,4 +44,9 @@ class Movement extends Model
     {
         return $this->belongsTo(Participant::class);
     }
+
+    public function faturas()
+    {
+        return $this->belongsToMany(Faturas::class,'faturas_movements','movement_id','fatura_id');
+    }
 }

@@ -1,13 +1,16 @@
 created:
-    - database/factories/MovementsFactory.php
-    - database/factories/CategoriesFactory.php
-    - database/migrations/2024_12_04_213206_create_movements_table.php
-    - database/migrations/2024_12_04_213207_create_categories_table.php
-    - app/Models/Movements.php
-    - app/Models/Categories.php
+    - database/factories/UnitsFactory.php
+    - database/factories/FoodsFactory.php
+    - database/migrations/2024_12_05_212634_create_units_table.php
+    - database/migrations/2024_12_05_212635_create_foods_table.php
+    - app/Models/Units.php
+    - app/Models/Foods.php
 models:
     User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
     Participant: { name: 'string:255' }
-    Movement: { value: float, relationships: { belongsTo: Participant } }
+    Movement: { relationships: { belongsTo: Faturas } }
     Movements: { relationships: { belongsTo: Categories } }
     Categories: { name: string }
+    Faturas: { paid: 'boolean, default:true', expires_at: date, relationships: { hasMany: Movements } }
+    Units: { name: varchar }
+    Foods: { name: varchar }
