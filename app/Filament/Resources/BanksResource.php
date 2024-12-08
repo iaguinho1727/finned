@@ -2,28 +2,25 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\UnitsResource\Pages;
-use App\Filament\Resources\UnitsResource\RelationManagers;
-use App\Models\Units;
+use App\Filament\Resources\BanksResource\Pages;
+use App\Filament\Resources\BanksResource\RelationManagers;
+use App\Models\Banks;
 use Filament\Forms;
-use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
-use Filament\Tables\Columns\TextInputColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class UnitsResource extends Resource
+class BanksResource extends Resource
 {
-    protected static ?string $model = Units::class;
+    protected static ?string $model = Banks::class;
 
-    protected static ?string $navigationIcon = 'bi-thermometer';
+    protected static ?string $modelLabel='Banco';
+    protected static ?string $pluralModelLabel='Bancos';
 
-    protected static ?string $modelLabel='Unidade';
-
-    protected static ?string $pluralModelLabel='Unidades';
+    protected static ?string $navigationIcon = 'bi-bank';
 
     public static function form(Form $form): Form
     {
@@ -45,9 +42,9 @@ class UnitsResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListUnits::route('/'),
-            'create' => Pages\CreateUnits::route('/create'),
-            'edit' => Pages\EditUnits::route('/{record}/edit'),
+            'index' => Pages\ListBanks::route('/'),
+            'create' => Pages\CreateBanks::route('/create'),
+            'edit' => Pages\EditBanks::route('/{record}/edit'),
         ];
     }
 }

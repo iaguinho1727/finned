@@ -4,10 +4,13 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\FaturasResource\Pages;
 
+
+use App\Filament\Resources\FaturasResource\RelationManagers\MovementsRelationManager;
 use App\Models\Faturas;
 use Filament\Forms;
 use Filament\Forms\Components\Checkbox;
 use Filament\Forms\Components\DatePicker;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -32,8 +35,10 @@ class FaturasResource extends Resource
     {
         return $form
             ->schema([
-                DatePicker::make('expires_at')->native(false)->label('Data de Vencimento'),
-                Checkbox::make('paid')->label('Pago'),
+                DatePicker::make('expires_at')->required()->native(false)->label('Data de Vencimento'),
+                Select::make('bank_id')->relationship('banks','name')->label('Banco')->required(),
+
+                DatePicker::make('pago_em')->native(false)->date()->time()->required()->label('Pago'),
 
             ]);
     }
@@ -42,8 +47,9 @@ class FaturasResource extends Resource
     {
         return $table
             ->columns([
-                BooleanColumn::make('paid')->label('Pago'),
-                TextColumn::make('expires_at')->date('Y/m')->label('Data de vencimentos')
+                TextColumn::make('pago_em')->label('Pago em')->date('Y/m/d')->time(),
+                TextColumn::make('expires_at')->date('Y/m')->label('Data de vencimentos'),
+                TextColumn::make('banks.name')->label('Banco')
             ])
             ->filters([
                 //
@@ -61,6 +67,7 @@ class FaturasResource extends Resource
     public static function getRelations(): array
     {
         return [
+            MovementsRelationManager::class
         ];
     }
 

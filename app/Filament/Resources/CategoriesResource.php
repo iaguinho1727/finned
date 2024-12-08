@@ -28,31 +28,12 @@ class CategoriesResource extends Resource
 
     public static function form(Form $form): Form
     {
-        return $form
-            ->schema([
-                TextInput::make('name')->label('Nome')
-            ]);
+        return ParticipantResource::form($form);
     }
 
     public static function table(Table $table): Table
     {
-        return $table
-            ->columns([
-                TextColumn::make('id'),
-                TextInputColumn::make('name')->label('Nome')->searchable()->columnSpanFull(),
-            ])
-            ->filters([
-                //
-            ])
-            ->actions([
-                Tables\Actions\EditAction::make(),
-                Tables\Actions\DeleteAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
-            ]);
+        return ParticipantResource::table($table);
     }
 
     public static function getPages(): array

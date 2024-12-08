@@ -17,8 +17,9 @@ class Faturas extends Model
      * @var array
      */
     protected $fillable = [
-        'paid',
+        'pago_em',
         'expires_at',
+        'bank_id'
     ];
 
     /**
@@ -35,5 +36,9 @@ class Faturas extends Model
     public function movements(): BelongsToMany
     {
         return $this->belongsToMany(Movement::class,'faturas_movements','fatura_id','movement_id');
+    }
+    public function banks()
+    {
+        return $this->belongsTo(Banks::class,'bank_id');
     }
 }

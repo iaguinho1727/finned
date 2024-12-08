@@ -19,33 +19,20 @@ class FoodsResource extends Resource
 {
     protected static ?string $model = Foods::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'bi-egg-fried';
+
+    protected static ?string $modelLabel='Comida';
+
+    protected static ?string $pluralModelLabel='Comidas';
 
     public static function form(Form $form): Form
     {
-        return $form
-            ->schema([
-                TextInput::make('name')->label('Comida')
-            ]);
+        return ParticipantResource::form($form);
     }
 
     public static function table(Table $table): Table
     {
-        return $table
-            ->columns([
-                TextInputColumn::make('name')->label('Nome')
-            ])
-            ->filters([
-                //
-            ])
-            ->actions([
-                Tables\Actions\EditAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
-            ]);
+        return ParticipantResource::table($table);
     }
 
     public static function getRelations(): array

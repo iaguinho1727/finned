@@ -1,9 +1,7 @@
 models:
+  SleepEvaluation:
+    note: float
 
-  Units:
-    name: varchar
-  Foods:
-    name: varchar
 
 
 

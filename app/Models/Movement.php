@@ -19,6 +19,7 @@ class Movement extends Model
         'value',
         'participant_id',
         'movement_date',
+        'movement_type',
         'categories_id'
     ];
 

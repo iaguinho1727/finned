@@ -58,16 +58,20 @@ class ParticipantResource extends Resource
                 ]),
             ]);
     }
-    public static function getRelations() : array
+
+    public static function getRelations(): array
     {
         return [
             MovementsRelationManager::class
         ];
     }
+
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageParticipants::route('/'),
+            'index' => Pages\ListParticipants::route('/'),
+            'create' => Pages\CreateParticipant::route('/create'),
+            'edit' => Pages\EditParticipant::route('/{record}/edit'),
         ];
     }
 }

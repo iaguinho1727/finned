@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\MovementResource\Pages;
 use App\Filament\Resources\MovementResource\RelationManagers;
+use App\Filament\Resources\ParticipantResource\RelationManagers\MovementsRelationManager;
 use App\Models\Movement;
 use Filament\Forms;
 use Filament\Forms\Components\DatePicker;
@@ -12,7 +13,9 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Actions\AttachAction;
 use Filament\Tables\Actions\BulkAction;
+use Filament\Tables\Actions\DetachBulkAction;
 use Filament\Tables\Columns\Summarizers\Sum;
 use Filament\Tables\Columns\SelectColumn;
 use Filament\Tables\Columns\TextColumn;
@@ -41,6 +44,7 @@ class MovementResource extends Resource
         return $form
             ->schema([
                 Select::make('participant_id')
+                ->hiddenOn(MovementsRelationManager::class)
                 ->searchable()
                 ->required()
                 ->preload()
@@ -62,7 +66,11 @@ class MovementResource extends Resource
                     'other'=>'Outro'
                 ])->required()->label('Tipo de Movimento')->default('pix'),
 
-                Select::make('categories_id')->label('Categoria')->relationship('categories','name')->preload()->searchable(),
+                Select::make('categories_id')->label('Categoria')
+                ->createOptionForm([
+                    TextInput::make('name')->label('Nome')
+                ])
+                ->relationship('categories','name')->preload()->searchable(),
 
                 DatePicker::make('movement_date')->required()->displayFormat('d/m/Y')->required()->label('Data da Movimentação')->native(false),
 
@@ -88,7 +96,6 @@ class MovementResource extends Resource
                     'other'=>'Outro'
                 ])->label('Tipo de Movimentação')->alignCenter(),
                 TextColumn::make('categories.name')->badge()->label('Categoria'),
-                TextColumn::make('created_at')->dateTime(),
             ])->defaultSort('movement_date','desc')
 
             ->filters([
@@ -105,10 +112,14 @@ class MovementResource extends Resource
 
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
+
+
             ])
+
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
+                    DetachBulkAction::make(),
                     BulkAction::make('Edição Múltipla')
 
 
@@ -142,10 +153,19 @@ class MovementResource extends Resource
             ]);
     }
 
+    public static function getRelations(): array
+    {
+        return [
+            //
+        ];
+    }
+
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageMovements::route('/'),
+            'index' => Pages\ListMovements::route('/'),
+            'create' => Pages\CreateMovement::route('/create'),
+            'edit' => Pages\EditMovement::route('/{record}/edit'),
         ];
     }
 }
