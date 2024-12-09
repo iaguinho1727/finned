@@ -3,17 +3,16 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\SleepEvaluationResource\Pages;
-use App\Filament\Resources\SleepEvaluationResource\RelationManagers;
 use App\Models\SleepEvaluation;
-use Filament\Forms;
+
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+
 
 class SleepEvaluationResource extends Resource
 {
@@ -25,7 +24,8 @@ class SleepEvaluationResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('note')->label('Nota')->required()->default(0)
+                TextInput::make('note')->label('Nota')->required()->default(0),
+                Select::make('problem_id')->relationship('problems','name')->label('Problema')
             ]);
     }
 
@@ -34,6 +34,7 @@ class SleepEvaluationResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('note')->label('Nota'),
+                TextColumn::make('problems.name')->label('Problema'),
                 TextColumn::make('created_at')->label('Data de criação')
             ])
             ->filters([
@@ -50,10 +51,13 @@ class SleepEvaluationResource extends Resource
             ]);
     }
 
+
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageSleepEvaluations::route('/'),
+            'index' => Pages\ListSleepEvaluations::route('/'),
+            'create' => Pages\CreateSleepEvaluation::route('/create'),
+            'edit' => Pages\EditSleepEvaluation::route('/{record}/edit'),
         ];
     }
 }

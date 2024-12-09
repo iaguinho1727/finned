@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class SleepEvaluation extends Model
+class Problems extends Model
 {
     use HasFactory;
 
@@ -15,8 +15,7 @@ class SleepEvaluation extends Model
      * @var array
      */
     protected $fillable = [
-        'note',
-        'problem_id'
+        'name',
     ];
 
     /**
@@ -26,11 +25,9 @@ class SleepEvaluation extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'note' => 'float',
-        'problem_id'=>'integer',
     ];
 
-    public function problems()
+    public function problem()
     {
         return $this->belongsTo(Problems::class,'problem_id');
     }

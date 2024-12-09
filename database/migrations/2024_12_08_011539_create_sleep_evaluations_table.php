@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('sleep_evaluations', function (Blueprint $table) {
             $table->id();
             $table->float('note');
+            $table->foreignId('problem_id')->nullable()->constrained('problems');
             $table->timestamps();
         });
     }

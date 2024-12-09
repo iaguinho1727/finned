@@ -16,12 +16,14 @@ use Filament\Tables;
 use Filament\Tables\Actions\AttachAction;
 use Filament\Tables\Actions\BulkAction;
 use Filament\Tables\Actions\DetachBulkAction;
+use Filament\Tables\Actions\ReplicateAction;
 use Filament\Tables\Columns\Summarizers\Sum;
 use Filament\Tables\Columns\SelectColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\TextInputColumn;
 use Filament\Tables\Filters\QueryBuilder;
 use Filament\Tables\Filters\QueryBuilder\Constraints\DateConstraint;
+use Filament\Tables\Filters\QueryBuilder\Constraints\NumberConstraint;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
@@ -102,9 +104,20 @@ class MovementResource extends Resource
                 SelectFilter::make('parcicipant')->relationship('participant','name')->searchable()->preload(),
 
                 SelectFilter::make('categories_id')->label('Categoria')->relationship('categories','name')->searchable()->preload(),
+                SelectFilter::make('movement_type')->options(
+                    [
+                        'debit'=>'Débito',
+                        'credit'=>'Crédito',
+                        'pix'=>'Pix',
+                        'money'=>'Dinherio',
+                        'transfer'=>'Transferência',
+                        'other'=>'Outro'
+                    ]
+                    )->label('Tipo de Movimento'),
 
 
                 QueryBuilder::make()->constraints([
+                    NumberConstraint::make('value')->label('Valor'),
                     DateConstraint::make('movement_date')
                 ])
             ])
@@ -112,6 +125,7 @@ class MovementResource extends Resource
 
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
+                ReplicateAction::make()
 
 
             ])

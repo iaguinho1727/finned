@@ -1,7 +1,7 @@
 created:
-    - database/factories/SleepEvaluationFactory.php
-    - database/migrations/2024_12_08_011539_create_sleep_evaluations_table.php
-    - app/Models/SleepEvaluation.php
+    - database/factories/ProblemsFactory.php
+    - database/migrations/2024_12_08_131738_create_problems_table.php
+    - app/Models/Problems.php
 models:
     User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
     Participant: { name: 'string:255' }
@@ -16,3 +16,4 @@ models:
     Activities: { name: varchar }
     Cronogram: { activity_id: 'foreign:activies', done_at: datetime }
     SleepEvaluation: { note: float }
+    Problems: { name: varchar }

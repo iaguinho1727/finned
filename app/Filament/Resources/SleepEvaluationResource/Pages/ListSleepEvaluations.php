@@ -4,9 +4,9 @@ namespace App\Filament\Resources\SleepEvaluationResource\Pages;
 
 use App\Filament\Resources\SleepEvaluationResource;
 use Filament\Actions;
-use Filament\Resources\Pages\ManageRecords;
+use Filament\Resources\Pages\ListRecords;
 
-class ManageSleepEvaluations extends ManageRecords
+class ListSleepEvaluations extends ListRecords
 {
     protected static string $resource = SleepEvaluationResource::class;
 

@@ -1,6 +1,6 @@
 models:
-  SleepEvaluation:
-    note: float
+  Problems:
+    name: varchar
 
 
 
