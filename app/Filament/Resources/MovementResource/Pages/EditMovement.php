@@ -4,6 +4,7 @@ namespace App\Filament\Resources\MovementResource\Pages;
 
 use App\Filament\Resources\MovementResource;
 use Filament\Actions;
+use Filament\Actions\ReplicateAction;
 use Filament\Resources\Pages\EditRecord;
 
 class EditMovement extends EditRecord
@@ -14,6 +15,7 @@ class EditMovement extends EditRecord
     {
         return [
             Actions\DeleteAction::make(),
+            ReplicateAction::make()
         ];
     }
 }
