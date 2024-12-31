@@ -1,6 +1,7 @@
 models:
-  Problems:
-    name: varchar
+  MonthlyMovements:
+    participant_id: integer
+    value: float
 
 
 

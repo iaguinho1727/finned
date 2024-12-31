@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use Carbon\Carbon;
+use Cmixin\BusinessTime;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +21,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        BusinessTime::enable(Carbon::class,[
+            'holidays'=>[
+                'region'=>'br'
+            ]
+        ]);
     }
 }
