@@ -26,10 +26,12 @@ class FaturasResource extends Resource
 {
     protected static ?string $model = Faturas::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationIcon = 'bi-receipt';
 
     protected static ?string $modelLabel='Fatura';
     protected static ?string $pluralModelLabel='Faturas';
+
+    protected static ?string $navigationGroup='Finanças';
 
     public static function form(Form $form): Form
     {

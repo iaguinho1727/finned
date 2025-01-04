@@ -27,6 +27,8 @@ class WorkHoursResource extends Resource
 
     protected static ?string $modelLabel='Horas Úteis';
 
+    protected static ?string $navigationGroup='Finanças';
+
     public static function form(Form $form): Form
     {
         return $form

@@ -25,6 +25,8 @@ class FoodsResource extends Resource
 
     protected static ?string $pluralModelLabel='Comidas';
 
+    protected static ?string $navigationGroup='Outros';
+
     public static function form(Form $form): Form
     {
         return ParticipantResource::form($form);

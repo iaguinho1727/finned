@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\MovementResource\Pages;
 use App\Filament\Resources\MovementResource\RelationManagers;
+use App\Filament\Resources\MovementResource\RelationManagers\ProductsRelationManager;
 use App\Filament\Resources\ParticipantResource\RelationManagers\MovementsRelationManager;
 use App\Models\Movement;
 use Filament\Forms;
@@ -41,6 +42,8 @@ class MovementResource extends Resource
 
     protected static ?string $modelLabel='Movimentação';
 
+    protected static ?string $navigationGroup='Finanças';
+
     public static function form(Form $form): Form
     {
         return $form
@@ -66,7 +69,7 @@ class MovementResource extends Resource
                     'money'=>'Dinherio',
                     'transfer'=>'Transferência',
                     'other'=>'Outro'
-                ])->required()->label('Tipo de Movimento')->default('pix'),
+                ])->required()->live()->label('Tipo de Movimento')->default('pix'),
 
                 Select::make('categories_id')->label('Categoria')
                 ->createOptionForm([
@@ -77,6 +80,11 @@ class MovementResource extends Resource
                 DatePicker::make('movement_date')->required()->displayFormat('d/m/Y')->required()->label('Data da Movimentação')->native(false),
 
                 TextInput::make('value')->required()->label('Valor')->numeric(),
+
+                Select::make('card_id')
+                ->dehydrated()
+                ->disabled(fn($get)=>$get('movement_type')!='credit')
+                ->relationship('cards','name')->label('Cartão')
 
             ]);
     }
@@ -98,6 +106,8 @@ class MovementResource extends Resource
                     'other'=>'Outro'
                 ])->label('Tipo de Movimentação')->alignCenter(),
                 TextColumn::make('categories.name')->badge()->label('Categoria'),
+
+
             ])->defaultSort('movement_date','desc')
 
             ->filters([
@@ -125,7 +135,8 @@ class MovementResource extends Resource
 
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
-                ReplicateAction::make()
+                ReplicateAction::make(),
+                AttachAction::make(),
 
 
             ])
@@ -170,7 +181,7 @@ class MovementResource extends Resource
     public static function getRelations(): array
     {
         return [
-            //
+            ProductsRelationManager::class
         ];
     }
 

@@ -20,7 +20,8 @@ class Movement extends Model
         'participant_id',
         'movement_date',
         'movement_type',
-        'categories_id'
+        'categories_id',
+        'card_id',
     ];
 
     /**
@@ -33,7 +34,8 @@ class Movement extends Model
         'value' => 'float',
         'movement_date'=>'date',
         'participant_id' => 'integer',
-        'categories_id'=>'integer'
+        'categories_id'=>'integer',
+        'card_id'=>'integer'
     ];
 
 
@@ -44,6 +46,16 @@ class Movement extends Model
     public function participant(): BelongsTo
     {
         return $this->belongsTo(Participant::class);
+    }
+
+    public function cards()
+    {
+        return $this->belongsTo(Cards::class,'card_id');
+    }
+
+    public function products()
+    {
+        return $this->belongsToMany(Product::class,'movements_products','movement_id','product_id');
     }
 
     public function faturas()

@@ -26,6 +26,8 @@ class CategoriesResource extends Resource
 
     protected static ?string $modelLabel='Categoria';
 
+    protected static ?string $navigationGroup='Finanças';
+
     public static function form(Form $form): Form
     {
         return ParticipantResource::form($form);

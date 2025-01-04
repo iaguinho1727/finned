@@ -1,7 +1,10 @@
 created:
-    - database/factories/MonthlyMovementsFactory.php
-    - database/migrations/2024_12_30_142355_create_monthly_movements_table.php
-    - app/Models/MonthlyMovements.php
+    - database/factories/ConsumableFactory.php
+    - database/factories/ConsumptionFactory.php
+    - database/migrations/2025_01_01_225231_create_consumables_table.php
+    - database/migrations/2025_01_01_225232_create_consumptions_table.php
+    - app/Models/Consumable.php
+    - app/Models/Consumption.php
 models:
     User: { name: string, email: string, email_verified_at: 'timestamp nullable', password: string, remember_token: 'string:100 nullable' }
     Participant: { name: 'string:255' }
@@ -19,3 +22,7 @@ models:
     Problems: { name: varchar }
     WorkHours: { begin_date: date, hours: float }
     MonthlyMovements: { participant_id: integer, value: float }
+    Cards: { name: varchar, expire_at: integer, closes_at: integer }
+    Product: { name: varchar }
+    Consumable: { name: varchar }
+    Consumption: { consumable_id: id, unit_id: 'foreign:units', quantity: float, comodo: varchar, casa: varchar }

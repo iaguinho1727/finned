@@ -25,6 +25,8 @@ class UnitsResource extends Resource
 
     protected static ?string $pluralModelLabel='Unidades';
 
+    protected static ?string $navigationGroup='Outros';
+
     public static function form(Form $form): Form
     {
         return ParticipantResource::form($form);

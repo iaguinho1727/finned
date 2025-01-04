@@ -26,6 +26,8 @@ class MonthlyMovementsResource extends Resource
 
     protected static ?string $pluralModelLabel='Gastos Mensais';
 
+    protected static ?string $navigationGroup='Finanças';
+
 
     public static function form(Form $form): Form
     {

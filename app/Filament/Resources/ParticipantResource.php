@@ -28,6 +28,8 @@ class ParticipantResource extends Resource
 
     protected static ?string $modelLabel='Participante';
 
+    protected static ?string $navigationGroup='Finanças';
+
     public static function form(Form $form): Form
     {
         return $form

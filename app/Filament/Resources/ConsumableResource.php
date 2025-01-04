@@ -2,9 +2,9 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\BanksResource\Pages;
-use App\Filament\Resources\BanksResource\RelationManagers;
-use App\Models\Banks;
+use App\Filament\Resources\ConsumableResource\Pages;
+use App\Filament\Resources\ConsumableResource\RelationManagers;
+use App\Models\Consumable;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -13,16 +13,16 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
-class BanksResource extends Resource
+class ConsumableResource extends Resource
 {
-    protected static ?string $model = Banks::class;
+    protected static ?string $model = Consumable::class;
 
-    protected static ?string $modelLabel='Banco';
-    protected static ?string $pluralModelLabel='Bancos';
+    protected static ?string $navigationIcon = 'bi-box-fill';
 
-    protected static ?string $navigationIcon = 'bi-bank';
+    protected static ?string $modelLabel='Consumivél';
+    protected static ?string $pluralModelLabel='Consumíveis';
 
-    protected static ?string $navigationGroup='Finanças';
+    protected static? string $navigationGroup='Consumo';
 
     public static function form(Form $form): Form
     {
@@ -44,9 +44,9 @@ class BanksResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListBanks::route('/'),
-            'create' => Pages\CreateBanks::route('/create'),
-            'edit' => Pages\EditBanks::route('/{record}/edit'),
+            'index' => Pages\ListConsumables::route('/'),
+            'create' => Pages\CreateConsumable::route('/create'),
+            'edit' => Pages\EditConsumable::route('/{record}/edit'),
         ];
     }
 }

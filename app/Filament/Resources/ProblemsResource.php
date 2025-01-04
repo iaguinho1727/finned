@@ -23,6 +23,8 @@ class ProblemsResource extends Resource
 
     protected static ?string $pluralModelLabel='Problemas';
 
+    protected static ?string $navigationGroup='Outros';
+
     public static function form(Form $form): Form
     {
         return ParticipantResource::form($form);

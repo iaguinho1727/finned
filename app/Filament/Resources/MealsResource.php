@@ -31,6 +31,8 @@ class MealsResource extends Resource
 
     protected static ?string $pluralModelLabel='Refeições';
 
+    protected static ?string $navigationGroup='Outros';
+
     public static function form(Form $form): Form
     {
         return $form

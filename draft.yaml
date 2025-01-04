@@ -1,7 +1,14 @@
 models:
-  MonthlyMovements:
-    participant_id: integer
-    value: float
+  Consumable:
+    name: varchar
+
+  Consumption:
+    consumable_id: id
+    unit_id: foreign:units
+    quantity: float
+    comodo: varchar
+    casa: varchar
+
 
 
 

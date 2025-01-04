@@ -20,6 +20,8 @@ class SleepEvaluationResource extends Resource
 
     protected static ?string $navigationIcon = 'bi-moon';
 
+    protected static ?string $navigationGroup='Outros';
+
     public static function form(Form $form): Form
     {
         return $form
