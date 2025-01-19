@@ -16,8 +16,10 @@ return new class extends Migration
             $table->foreignId('movement_id')->constrained('movements');
             $table->foreignId('product_id')->constrained('products');
             $table->foreignId('unit_id')->constrained('units');
+            $table->float('total')->default(0);
+
             $table->primary(['movement_id','product_id']);
-            $table->integer('quantity');
+            $table->float('quantity');
             $table->timestamps();
         });
     }

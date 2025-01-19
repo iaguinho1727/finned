@@ -55,7 +55,8 @@ class Movement extends Model
 
     public function products()
     {
-        return $this->belongsToMany(Product::class,'movements_products','movement_id','product_id');
+        return $this->belongsToMany(Product::class,'movements_products','movement_id','product_id')
+        ->withPivot(['unit_id','quantity','product_id']);
     }
 
     public function faturas()
