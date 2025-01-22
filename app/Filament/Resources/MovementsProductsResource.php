@@ -69,7 +69,7 @@ class MovementsProductsResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('movements.participant.name')->label('Participante'),
-                TextColumn::make('movements.movement_date')->date('d/m/Y')->label('Data da movimentação'),
+                TextColumn::make('movements.movement_date')->sortable()->date('d/m/Y')->label('Data da movimentação'),
                 TextColumn::make('total')->label('Valor'),
                 TextColumn::make('products.name')->label('Produto'),
                 TextColumn::make('units.name')->label('Unidade'),
